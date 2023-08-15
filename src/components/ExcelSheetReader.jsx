@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
 import axios from 'axios';
 
-const JWT = `Bearer ${import.meta.env.VITE_JWT}`
-
 function ExcelSheetReader({state}) {
   const [file, setFile] = useState(null);
   const [studentFile, setStudentFile] = useState(null);
