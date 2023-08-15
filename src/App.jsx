@@ -3,7 +3,7 @@ import { ethers } from "ethers"
 import { studentContractConstants } from './blockchainArtifacts/studentContract'
 import ExcelSheetReader from './components/ExcelSheetReader'
 import StudentDetails from './components/StudentDetails'
-import './app.css'
+import './App.css'
 
 function App(){
   const [state ,setState] = useState({
